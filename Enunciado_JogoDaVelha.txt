@@ -1,0 +1,9 @@
+Vamos imaginar que o jogo da velha é um jogo de tabuleiro.
+Criar uma classe chamada JogoDaVelha.
+Deve conter uma matriz de Casa
+Casa casas[3][3];
+um método EfetuarMarcacao() que deve retornar verdadeiro ou falso, dependendo se a casa já está marcada ou não.
+Criar uma classe chamada Casa.
+Uma variável do tipo enum contendo Jogador1, Jogador2 ou vazio
+Implementar GetJogador() e SetJogador()
+Pedir ao usuário que entre com a posição i, j da jogada do primeiro jogador um, e um turno depois, do jogador dois.
