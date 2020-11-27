@@ -1,0 +1,16 @@
+	// Existe uma funcao de sobrecarga de operador < por
+	// ai a qual eu permito acessar minhas variaveis internas
+	friend bool operator<(int i, Pessoa const& p);
+
+
+friend ostream& operator<<(ostream& os, const Pessoa& p);
+
+ostream& operator<<(ostream& os, const Pessoa& p);
+
+ostream& operator<<(ostream& os, const Pessoa& p)
+{
+    os << p.primeiro_nome << " "
+	   << p.ultimo_nome << " "
+	   << p.idade;
+    return os;
+}

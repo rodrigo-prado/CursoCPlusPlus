@@ -1,0 +1,3 @@
+Criar métodos para alterar o valor da transacao.
+Passar por referência.
+Passar por referência porém, sem modificar o conteúdo.
